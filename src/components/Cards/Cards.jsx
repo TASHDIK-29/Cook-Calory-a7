@@ -17,7 +17,7 @@ const Cards = () => {
 
 
     return (
-        <div className="border w-2/3 grid grid-cols-2 gap-5">
+        <div className="w-2/3 grid grid-cols-2 gap-5">
             
             {
                 cards.map(card => <Card key={card.id} card={card}></Card>)

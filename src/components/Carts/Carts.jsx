@@ -1,6 +1,8 @@
 import Cart from "../Cart/Cart";
 import Cooking from "../Cooking/Cooking";
 
+import PropTypes from 'prop-types';
+
 const Carts = ({carts, handelPreparing, cooking}) => {
 
     console.log(carts);
@@ -23,7 +25,7 @@ const Carts = ({carts, handelPreparing, cooking}) => {
             </div>
 
             {
-                carts.map((cart, idx) => <Cart cart={cart} idx={idx} handelPreparing={handelPreparing}></Cart>)
+                carts.map((cart, idx) => <Cart key={idx} cart={cart} idx={idx} handelPreparing={handelPreparing}></Cart>)
             }
 
 
@@ -42,7 +44,7 @@ const Carts = ({carts, handelPreparing, cooking}) => {
             </div>
             
             {
-                cooking.map((item, idx) => <Cooking cooking={item} idx={idx}></Cooking>)
+                cooking.map((item, idx) => <Cooking key={idx} cooking={item} idx={idx}></Cooking>)
             }
 
             
@@ -50,5 +52,11 @@ const Carts = ({carts, handelPreparing, cooking}) => {
 
     );
 };
+
+Carts.propTypes={
+    carts : PropTypes.array.isRequired,
+    handelPreparing : PropTypes.func.isRequired,
+    cooking : PropTypes.array.isRequired
+}
 
 export default Carts;

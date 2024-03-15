@@ -1,8 +1,11 @@
 import clock from "../../assets/image/clock.png";
 import fire from "../../assets/image/fire.png";
+
+import PropTypes from 'prop-types';
+
 const Card = ({ card ,handelCook}) => {
     //console.log(card);
-    const{calories, preparing_time, ingredients, description, name, recipe_image, id} = card;
+    const{calories, preparing_time, ingredients, description, name, recipe_image} = card;
     return (
         <div>
             <div className="card bg-base-100 shadow-xl border border-slate-300">
@@ -40,5 +43,10 @@ const Card = ({ card ,handelCook}) => {
         </div>
     );
 };
+
+Card.propTypes={
+    card : PropTypes.object,
+    handelCook : PropTypes.func.isRequired
+}
 
 export default Card;

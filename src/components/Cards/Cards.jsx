@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Card from "../Card/Card";
 
+import PropTypes from 'prop-types';
+
 const Cards = ({handelCook}) => {
 
     const [cards, setCards] = useState([]);
@@ -25,5 +27,9 @@ const Cards = ({handelCook}) => {
         </div>
     );
 };
+
+Cards.propTypes={
+    handelCook : PropTypes.func.isRequired
+}
 
 export default Cards;

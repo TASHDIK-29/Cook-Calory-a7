@@ -1,11 +1,11 @@
 import clock from "../../assets/image/clock.png";
 import fire from "../../assets/image/fire.png";
-const Card = ({ card }) => {
-    console.log(card);
+const Card = ({ card ,handelCook}) => {
+    //console.log(card);
     const{calories, preparing_time, ingredients, description, name, recipe_image, id} = card;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl border border-slate-300">
+            <div className="card bg-base-100 shadow-xl border border-slate-300">
                 <figure className="px-10 pt-10">
                     <img src={recipe_image} alt="Shoes" className="rounded-xl" />
                 </figure>
@@ -33,7 +33,7 @@ const Card = ({ card }) => {
                         </div>
                     </div>
                     <div className="card-actions  w-full">
-                        <button className="btn btn-primary">Want to Cook</button>
+                        <button onClick={() => handelCook(card)} className="btn bg-[#0BE58A]">Want to Cook</button>
                     </div>
                 </div>
             </div>

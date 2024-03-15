@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with creamy sauce, crispy bacon, and Parmesan cheese.",
+      "ingredients": ["Spaghetti", "Eggs", "Bacon", "Parmesan cheese", "Garlic", "Black pepper"],
+      "preparing_time": "30",
+      "calories": "450"
+    },
+    {
+      "id": "2",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Grilled Salmon with Asparagus",
+      "description": "Delicious grilled salmon fillets served with roasted asparagus and lemon wedges.",
+      "ingredients": ["Salmon fillets", "Asparagus", "Olive oil", "Lemon", "Salt", "Black pepper"],
+      "preparing_time": "25",
+      "calories": "350"
+    },
+    {
+      "id": "3",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Chicken Caesar Salad",
+      "description": "Classic Caesar salad with grilled chicken breast, crisp romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": ["Chicken breast", "Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing", "Lemon juice"],
+      "preparing_time": "20",
+      "calories": "320"
+    },
+    {
+      "id": "4",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Beef Chili",
+      "description": "Hearty and flavorful beef chili made with ground beef, beans, tomatoes, and spices.",
+      "ingredients": ["Ground beef", "Kidney beans", "Tomatoes", "Onion", "Garlic", "Chili powder"],
+      "preparing_time": "40",
+      "calories": "400"
+    },
+    {
+      "id": "5",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Vegetable Stir-Fry",
+      "description": "Healthy and colorful vegetable stir-fry with a variety of fresh vegetables and tofu, seasoned with soy sauce and ginger.",
+      "ingredients": ["Broccoli", "Carrots", "Bell peppers", "Tofu", "Soy sauce", "Ginger"],
+      "preparing_time": "20",
+      "calories": "250"
+    },
+    {
+      "id": "6",
+      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "name": "Margherita Pizza",
+      "description": "Classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil.",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Fresh mozzarella", "Basil leaves", "Olive oil", "Salt"],
+      "preparing_time": "30",
+      "calories": "380"
+    }
+  ]
+  

@@ -3,7 +3,7 @@
       "id": "1",
       "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
       "name": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish with creamy sauce, crispy bacon, and Parmesan cheese.",
+      "description": "Classic Italian pasta dish with creamy sauce, crispy bacon, and cheese.",
       "ingredients": ["Spaghetti", "Eggs", "Bacon", "Parmesan cheese", "Garlic", "Black pepper"],
       "preparing_time": "30",
       "calories": "450"

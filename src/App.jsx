@@ -1,4 +1,5 @@
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react'
 import './App.css'
 import Cards from './components/Cards/Cards'
@@ -17,7 +18,7 @@ function App() {
       setCarts([...carts, recipe]);
     }
     else{
-      alert('Already Exist!!!');
+      toast.warning("Already Exist !");
     }
   }
 
@@ -42,7 +43,10 @@ function App() {
       <div className='flex gap-5 my-12 container mx-auto'>
         <Cards handelCook={handelCook}></Cards>
         <Carts carts={carts} handelPreparing={handelPreparing} cooking={cooking}></Carts>
+        <ToastContainer />
       </div>
+
+      
     </>
   )
 }

@@ -18,11 +18,22 @@ const Card = ({ card ,handelCook}) => {
                     
                     <div className="w-full border-t-2 border-b-2 p-3 text-left my-0">
                         <h3 className="text-xl font-semibold">Ingredients: {ingredients.length}</h3>
-                        <ul>
+                        <ul className="list-disc list-inside">
                             {
                                 ingredients.map((item, idx) => <li className="text-[#878787]" key={idx}>{item}</li> )
                             }
                         </ul>
+                        {/* <ul>
+                            {
+                                ingredients.map(item => <li className="text-[#878787]" >{item}</li> )
+                            }
+                        </ul> */}
+                        {/* {
+                            ingredients.map((item, idx) => <ul key={idx}> <li className="text-[#878787]" >{item}</li> </ul> )
+                        } */}
+                        {/* {
+                            ingredients.map(item=> <ul> <li className="text-[#878787]" >{item}</li> </ul> )
+                        } */}
                     </div>
                     
                     <div className="flex justify-between w-full">

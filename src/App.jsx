@@ -49,22 +49,24 @@ function App() {
       setTotalCalory(calory);
     }
   }, [cooking])
- 
+
 
 
   return (
     <>
-      <Header></Header>
+      <div className='p-1'>
+        <Header></Header>
 
-      <div className='text-center w-1/2 mx-auto space-y-4'>
-        <h1 className='text-4xl font-bold'>Our Recipes</h1>
-        <p className='text-xl font-normal'>Discover a treasure trove of mouthwatering recipes crafted with love and expertise. From comforting classics to innovative delights, our collection promises culinary inspiration for every taste and occasion. </p>
-      </div>
-      {/* card & cart container */}
-      <div className='flex gap-5 my-12 container mx-auto'>
-        <Cards handelCook={handelCook}></Cards>
-        <Carts carts={carts} handelPreparing={handelPreparing} cooking={cooking} totalTime={totalTime} totalCalory={totalCalory}></Carts>
-        <ToastContainer />
+        <div className='text-center lg:w-1/2 mx-auto space-y-4'>
+          <h1 className='text-4xl font-bold'>Our Recipes</h1>
+          <p className='text-xl font-normal'>Discover a treasure trove of mouthwatering recipes crafted with love and expertise. From comforting classics to innovative delights, our collection promises culinary inspiration for every taste and occasion. </p>
+        </div>
+        {/* card & cart container */}
+        <div className='lg:flex gap-5 my-12 container mx-auto'>
+          <Cards handelCook={handelCook}></Cards>
+          <Carts carts={carts} handelPreparing={handelPreparing} cooking={cooking} totalTime={totalTime} totalCalory={totalCalory}></Carts>
+          <ToastContainer />
+        </div>
       </div>
 
 

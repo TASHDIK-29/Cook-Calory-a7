@@ -19,7 +19,7 @@ const Cards = ({handelCook}) => {
 
 
     return (
-        <div className="w-3/5 grid grid-cols-2 gap-5">
+        <div className="lg:w-3/5 grid grid-cols-1 lg:grid-cols-2 gap-5">
             
             {
                 cards.map(card => <Card key={card.id} card={card} handelCook={handelCook}></Card>)

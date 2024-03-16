@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "recipe_image": "https://i.ibb.co/R3V322C/salmon-steak.jpg",
       "name": "Grilled Salmon with Asparagus",
       "description": "Delicious grilled salmon fillets served with roasted asparagus and lemon wedges.",
       "ingredients": ["Salmon fillets", "Asparagus", "Olive oil", "Lemon", "Salt", "Black pepper"],
@@ -19,7 +19,7 @@
     },
     {
       "id": "3",
-      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "recipe_image": "https://i.ibb.co/wSVK03s/salad-with-chicken.jpg",
       "name": "Chicken Caesar Salad",
       "description": "Classic Caesar salad with grilled chicken breast, crisp romaine lettuce, croutons, and Caesar dressing.",
       "ingredients": ["Chicken breast", "Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing", "Lemon juice"],
@@ -28,7 +28,7 @@
     },
     {
       "id": "4",
-      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "recipe_image": "https://i.ibb.co/SJjdPHD/beef.jpg",
       "name": "Beef Chili",
       "description": "Classic Italian Hearty and flavorful beef chili made with ground beef, beans, tomatoes, and spices.",
       "ingredients": ["Ground beef", "Kidney beans", "Tomatoes", "Onion", "Garlic", "Chili powder"],
@@ -37,7 +37,7 @@
     },
     {
       "id": "5",
-      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "recipe_image": "https://i.ibb.co/CKWMR8g/fried-vegetables.jpg",
       "name": "Vegetable Stir-Fry",
       "description": "Healthy and colorful vegetable stir-fry with a variety of fresh vegetables and tofu, seasoned with soy sauce and ginger.",
       "ingredients": ["Broccoli", "Carrots", "Bell peppers", "Tofu", "Soy sauce", "Ginger"],
@@ -46,7 +46,7 @@
     },
     {
       "id": "6",
-      "recipe_image": "https://i.ibb.co/w0Hf2HN/pasta.jpg",
+      "recipe_image": "https://i.ibb.co/Y7SSL2k/margharita-special-pizza.jpg",
       "name": "Margherita Pizza",
       "description": "Classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil.",
       "ingredients": ["Pizza dough", "Tomato sauce", "Fresh mozzarella", "Basil leaves", "Olive oil", "Salt"],

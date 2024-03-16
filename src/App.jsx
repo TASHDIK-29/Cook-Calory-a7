@@ -34,9 +34,9 @@ function App() {
     <>
       <Header></Header>
 
-      <div className='text-center w-1/2 mx-auto'>
-        <h1 className='text-3xl font-bold'>Our Recipes</h1>
-        <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+      <div className='text-center w-1/2 mx-auto space-y-4'>
+        <h1 className='text-4xl font-bold'>Our Recipes</h1>
+        <p className='text-xl font-normal'>Discover a treasure trove of mouthwatering recipes crafted with love and expertise. From comforting classics to innovative delights, our collection promises culinary inspiration for every taste and occasion. </p>
       </div>
     {/* card & cart container */}
       <div className='flex gap-5 my-12 container mx-auto'>

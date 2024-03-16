@@ -8,12 +8,12 @@ const Carts = ({carts, handelPreparing, cooking}) => {
     console.log(carts);
 
     return (
-        <div className="w-2/5 p-4 border border-slate-300 space-y-5">
+        <div className="w-2/5 p-4 border border-[#0BE58A66] rounded-2xl space-y-5">
             
             <div>
                 <h1 className="text-2xl font-bold text-center">Want to cook: {carts.length}</h1>
                 <div className="divider"></div>
-                <div className="w-full flex justify-between">
+                <div className="w-full flex justify-between bg-[#d7ffef] rounded-lg p-2">
                     <div className="w-1/3 mx-auto">
                         <h3 className="ml-16 text-xl font-semibold">Name</h3>
                     </div>
@@ -32,7 +32,7 @@ const Carts = ({carts, handelPreparing, cooking}) => {
             <div>
                 <h1 className="text-2xl font-bold text-center">Currently cooking: {cooking.length}</h1>
                 <div className="divider"></div>
-                <div className="w-full flex justify-between">
+                <div className="w-full flex justify-between bg-[#d7ffef] rounded-lg p-2">
                     <div className="w-1/3 ml-14">
                         <h3 className="text-xl font-semibold">Name</h3>
                     </div>

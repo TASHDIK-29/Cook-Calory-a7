@@ -8,19 +8,19 @@ const Card = ({ card ,handelCook}) => {
     const{calories, preparing_time, ingredients, description, name, recipe_image} = card;
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl border border-slate-300">
+            <div className="card bg-base-100 shadow-xl border border-[#0BE58A66]">
                 <figure className="px-10 pt-10">
                     <img src={recipe_image} alt="Shoes" className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{name}</h2>
-                    <p>{description}</p>
+                    <p className="text-[#878787]">{description}</p>
                     
                     <div className="w-full border-t-2 border-b-2 p-3 text-left my-0">
-                        <h3 className="text-xl font-bold">Ingredients: {ingredients.length}</h3>
+                        <h3 className="text-xl font-semibold">Ingredients: {ingredients.length}</h3>
                         <ul>
                             {
-                                ingredients.map((item, idx) => <li key={idx}>{item}</li> )
+                                ingredients.map((item, idx) => <li className="text-[#878787]" key={idx}>{item}</li> )
                             }
                         </ul>
                     </div>
@@ -28,15 +28,15 @@ const Card = ({ card ,handelCook}) => {
                     <div className="flex justify-between w-full">
                         <div className="flex gap-2">
                             <img src={clock} alt="" />
-                            <h3>{preparing_time} minutes</h3>
+                            <h3 className="text-[#282828CC] font-semibold">{preparing_time} minutes</h3>
                         </div>
                         <div className="flex gap-2">
                             <img src={fire} alt="" />
-                            <h3>{calories} calories</h3>
+                            <h3 className="text-[#282828CC] font-semibold">{calories} calories</h3>
                         </div>
                     </div>
                     <div className="card-actions  w-full">
-                        <button onClick={() => handelCook(card)} className="btn bg-[#0BE58A]">Want to Cook</button>
+                        <button onClick={() => handelCook(card)} className="btn bg-[#0BE58A] font-bold">Want to Cook</button>
                     </div>
                 </div>
             </div>

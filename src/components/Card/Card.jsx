@@ -23,17 +23,6 @@ const Card = ({ card ,handelCook}) => {
                                 ingredients.map((item, idx) => <li className="text-[#878787]" key={idx}>{item}</li> )
                             }
                         </ul>
-                        {/* <ul>
-                            {
-                                ingredients.map(item => <li className="text-[#878787]" >{item}</li> )
-                            }
-                        </ul> */}
-                        {/* {
-                            ingredients.map((item, idx) => <ul key={idx}> <li className="text-[#878787]" >{item}</li> </ul> )
-                        } */}
-                        {/* {
-                            ingredients.map(item=> <ul> <li className="text-[#878787]" >{item}</li> </ul> )
-                        } */}
                     </div>
                     
                     <div className="flex justify-between w-full">

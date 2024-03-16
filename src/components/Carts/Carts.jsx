@@ -3,13 +3,13 @@ import Cooking from "../Cooking/Cooking";
 
 import PropTypes from 'prop-types';
 
-const Carts = ({carts, handelPreparing, cooking}) => {
+const Carts = ({ carts, handelPreparing, cooking ,totalTime, totalCalory}) => {
 
     console.log(carts);
 
     return (
         <div className="w-2/5 p-4 border border-[#0BE58A66] rounded-2xl space-y-5">
-            
+
             <div>
                 <h1 className="text-2xl font-bold text-center">Want to cook: {carts.length}</h1>
                 <div className="divider"></div>
@@ -42,21 +42,33 @@ const Carts = ({carts, handelPreparing, cooking}) => {
                     </div>
                 </div>
             </div>
-            
+
             {
                 cooking.map((item, idx) => <Cooking key={idx} cooking={item} idx={idx}></Cooking>)
             }
 
-            
+
+            <div className="flex justify-end gap-8">
+                <div>
+                    <h3 className="text-base text-[#282828CC] font-semibold">Total Time = <br /> {totalTime} minutes</h3>
+                </div>
+                <div>
+                    <h3 className="text-base text-[#282828CC] font-semibold">Total Calories = <br /> {totalCalory} calories</h3>
+                </div>
+            </div>
+
+
         </div>
 
     );
 };
 
-Carts.propTypes={
-    carts : PropTypes.array.isRequired,
-    handelPreparing : PropTypes.func.isRequired,
-    cooking : PropTypes.array.isRequired
+Carts.propTypes = {
+    carts: PropTypes.array.isRequired,
+    handelPreparing: PropTypes.func.isRequired,
+    cooking: PropTypes.array.isRequired,
+    totalTime : PropTypes.number,
+    totalCalory : PropTypes.number
 }
 
 export default Carts;
